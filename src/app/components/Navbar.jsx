@@ -10,9 +10,9 @@ const Navbar = () => {
   <nav className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 shadow-lg">
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="flex justify-between h-16 items-center">
-        <div className="flex-shrink-0 text-white text-2xl font-bold">
+        <Link href='/'><div className="flex-shrink-0 text-white text-2xl font-bold">
           MyBrand
-        </div>
+        </div></Link>
         <div className="hidden md:flex space-x-6 text-white font-medium">
           <a href="#" className="hover:text-yellow-300 transition">Home</a>
           <a href="#" className="hover:text-yellow-300 transition">About</a>
